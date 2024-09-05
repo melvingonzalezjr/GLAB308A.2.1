@@ -164,5 +164,8 @@ const robin3 = healers.generate("Robin");
 /************************
 PART 6: DEVELOPING SKILLS
 ************************/
+//Actual code apears on following lines:
+//42: Changed roll() method to allow for the actual result to be returned so we may compare in duel() method for Part 6
+//84-111: Code for duel() game.
 const billy = new Adventurer("Billy", "Wizard")
 robin2.duel(billy)
